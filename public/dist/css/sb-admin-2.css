@@ -1,0 +1,209 @@
+/*!
+ * Start Bootstrap - SB Admin 2 v3.3.7+1 (http://startbootstrap.com/template-overviews/sb-admin-2)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+ body {
+  /* background-color: #f8f8f8; */
+  background-color: #57E86B;
+}
+#wrapper {
+  width: 100%;
+}
+#page-wrapper {
+  padding: 0 15px;
+  min-height: 568px;
+  background-color:  #78EC6C;
+}
+@media (min-width: 768px) {
+  #page-wrapper {
+    position: inherit;
+    margin: 0 0 0 250px;
+    padding: 0 30px;
+    border-left: 1px solid #e7e7e7;
+  }
+}
+
+/* custom css */
+
+/* .page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+} */
+
+
+#new-task-form {
+  margin-top: 7%;
+  
+}
+
+.navbar-brand {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: bold; 
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #78EC6C;  
+}
+
+
+.sidebar ul li a, .panel-heading,.form-control, .form-input {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 20px;
+}
+
+.sidebar ul li a{
+  color: #FF9A1F
+}
+
+/* .sidebar .sidebar-search{
+ } */
+
+ /* .sidebar .sidebar-nav.navbar-collapse{
+ } */
+ 
+
+ #side-menu {
+  background-color: #00954a; 
+ }
+
+
+h1, h2 {
+  font-family: 'Patrick Hand', cursive;
+}
+
+#user-cont {
+  margin-top: 7%;
+  border: orange solid 3px;
+  width: 100%
+}
+
+#user-header {
+  padding-bottom: 0px;
+  margin: 20px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
+#bgt-cont {
+  margin-top: 7%;
+  border: green solid 3px;
+  width: 100%;
+}
+
+#bgt-header {
+  padding-bottom: 0px;
+  margin: 30px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
+
+.navbar {
+  height: 90px;
+  background-color: #00954a; 
+  z-index: 1000;
+}
+
+.navbar-default .navbar-brand {
+  height: 70px;
+  width: 250px;
+  text-align: center;
+  padding-top: 10%;
+  font-size: 250%;
+  color: #ff9a1f;
+}
+
+li.githubs {
+  display: inline;
+}
+
+ul.links {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+
+}
+
+.panel-default>.panel-heading {
+  background-color: #00954a;
+  color: #ff9a1f;
+  font-size: 170%;
+}
+
+.btn-default {
+  background-color: #00954a;
+  color: #ff9a1f;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 150%;
+}
+
+a.btn.btn-default.btn-block:hover {
+  color: #ff9a1f;
+  background-color: #78EC6C;
+}
+
+
+.input-group-btn>.btn {
+  background-color: #00954a;
+}
+
+.input-group-btn>.btn:hover {
+  background-color: #78EC6C;
+}
+
+i.fa-search {
+  color: #ff9a1f;
+  font-size: 15px;
+}
+
+i.fa.fa-user, i.fa.fa-gear, i.fa.fa-sign-out, i.fa.fa-caret-down {
+  background-color: #00954a;
+  color: #ff9a1f;
+}
+
+i.fa.fa-user:hover, i.fa.fa-gear:hover, i.fa.fa-sign-out:hover, i.fa.fa-caret-down:hover{
+  background-color: #78EC6C;
+}
+
+.navbar-top-links .dropdown-menu li a {
+  background-color: #A4DF56;
+}
+.navbar-top-links .dropdown-user {
+  background-color: #A4DF56;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+  background-color: #00954a;
+}
+
+a.dropdown-toggle {
+  color: #00954a;
+  /* color: #A4DF56; */
+}
+
+#new-task.form-input {
+  border-radius: 5px;
+  padding: 3%;  
+  margin-left: 2%;  
+  width: 80%; 
+  height: 30px;
+}
+
+#addTasks {
+  background-color: #00954a;
+  color: #ff9a1f;
+  border-radius: 5px;
+}
+#addTasks:hover {
+  background-color: #78EC6C;
+}
+
+.panel-body {
+  /* background-color: #78EC6C; */
+  background-color: #FDFD96;
+}
+
+.nav>li>a:hover {
+  /* background-color: #00954a; */
+  background-color:  #78EC6C;
+}
